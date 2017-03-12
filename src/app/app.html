@@ -1,0 +1,39 @@
+ <h1>Angular 2</h1>
+<h2>Super Simple Master/Detail primer</h2>
+Data API provided by free Star Wars API (SWAPI https://swapi.co/)
+<hr />
+<div>
+
+        <div style="float:left">
+                <h2>Vehicles</h2>
+                <div  >
+                        <div *ngFor='let veh of vehicles'>
+                                <button (click)="selectVehicle(veh.url)"
+                                        [class] = 'veh.name == vehicle.name ? "selectedVehicle" : ""'>{{veh.name}}</button><br />
+                        </div>       
+                </div>
+        </div>
+
+        <div style="float:left" >
+                <h2>Details</h2>
+                <div style="float:left" *ngIf="!vehicle.name">
+                        &lt;---- Select a vehicle please...
+                </div>
+
+                <div class="vehicleDetail" *ngIf="vehicle.name">
+                        Name: {{vehicle.name}} <br />
+                        Model: {{vehicle.model}} <br />
+                        Class: {{vehicle.class}} <br />
+                        Mfr: {{vehicle.manufacturer}} <br />
+                        Cost (credits): {{vehicle.cost_in_credits}} <br />
+                        Max Speed: {{vehicle.max_atmospheric_speed}} <br />
+                        Crew: {{vehicle.crew}} <br />
+                        Passengers: {{vehicle.passengers}} <br />
+                        Cargo Capacity: {{vehicle.cargo_capacity}} <br />
+                        Consumables:  {{vehicle.consumabes}} <br />
+                        Created: {{vehicle.created}} <br />
+                        Url: {{vehicle.url}} <br />
+                </div>
+        </div>
+
+</div>
