@@ -5,7 +5,7 @@ This project is a beginner level getting started demo of a Master/Detail single 
 
 This app is based on the Angular Quick Start guide.
 
-Note: I am just a beginner with Angular 2 and TypeScipt. So... Please help me extend this app to be a great demo to help others (and myself) get started with Angular 2 apps that make API to fetch and present data.  Please post issues or wiki pages as need to help imporive this code.
+Note: I am just a beginner with Angular 2 and TypeScipt. So... Please help me extend this app to be a great demo to help others (and myself) get started with Angular 2 apps that make API calls to fetch and present data.  Please post issues or wiki pages as need to help imporive this code.
 
 ![alt tag](http://mattslay.com/wp-content/uploads/2017/03/2017-03-12_18-59-08.png)
 
