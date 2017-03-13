@@ -5,7 +5,9 @@ This project is a beginner level getting started demo of a Master/Detail single 
 
 This app is based on the Angular Quick Start guide.
 
-![alt tag](https://www.screencast.com/t/meLqcQo0YE)
+![alt tag](http://mattslay.com/wp-content/uploads/2017/03/2017-03-12_18-59-08.png)
+
+
 
 [travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
 [travis-badge-url]: https://travis-ci.org/angular/quickstart
